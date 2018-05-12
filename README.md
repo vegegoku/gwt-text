@@ -1,2 +1,2 @@
-# gwt-text
+# gwt-tex
 gwt-text
