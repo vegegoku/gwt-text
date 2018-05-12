@@ -15,8 +15,8 @@
  */
 package org.gwtproject.text.shared;
 
-import com.google.gwt.safehtml.shared.SafeHtml;
-import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
+import org.gwtproject.safehtml.shared.SafeHtml;
+import org.gwtproject.safehtml.shared.SafeHtmlBuilder;
 
 /**
  * An object that can render other objects of a particular type into safe HTML
