@@ -17,7 +17,20 @@
         <gwt.version>2.8.2</gwt.version>
         <elemental.version>1.0.0-RC1</elemental.version>
     </properties>
-
+    
+    
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.gwtproject.safehtml</groupId>
+                <artifactId>safehtml-parent</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    
     <dependencies>
         <dependency>
             <groupId>com.google.gwt</groupId>
@@ -51,6 +64,11 @@
             <artifactId>gwt-datetimeformat</artifactId>
             <version>1.0-SNAPSHOT</version>
             <classifier>sources</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.gwtproject.safehtml</groupId>
+            <artifactId>safehtml</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.google.elemental2</groupId>

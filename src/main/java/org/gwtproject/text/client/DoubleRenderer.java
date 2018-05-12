@@ -16,8 +16,8 @@
 package org.gwtproject.text.client;
 
 import com.google.gwt.i18n.client.NumberFormat;
-import com.google.gwt.text.shared.AbstractRenderer;
-import com.google.gwt.text.shared.Renderer;
+import org.gwtproject.text.shared.AbstractRenderer;
+import org.gwtproject.text.shared.Renderer;
 
 /**
  * A localized renderer based on {@link NumberFormat#getDecimalFormat}.

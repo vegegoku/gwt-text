@@ -16,7 +16,7 @@
 package org.gwtproject.text.client;
 
 import com.google.gwt.i18n.client.NumberFormat;
-import com.google.gwt.text.shared.AbstractRenderer;
+import org.gwtproject.text.shared.AbstractRenderer;
 
 /**
  * Renders {@link Number} objects with a {@link NumberFormat}.

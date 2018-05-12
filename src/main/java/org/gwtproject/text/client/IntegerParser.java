@@ -16,7 +16,7 @@
 package org.gwtproject.text.client;
 
 import com.google.gwt.i18n.client.NumberFormat;
-import com.google.gwt.text.shared.Parser;
+import org.gwtproject.text.shared.Parser;
 
 import java.text.ParseException;
 
